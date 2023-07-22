@@ -17,6 +17,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="j-cloud-consumer" target="1.8" />
+      <module name="j-cloud-consumer-feign" target="1.8" />
+      <module name="j-cloud-consumer-feign-hystrix" target="1.8" />
+      <module name="j-cloud-provider1" target="1.8" />
+      <module name="j-cloud-provider2" target="1.8" />
+      <module name="j-cloud-server-eureka" target="1.8" />
+      <module name="j-cloud-zuul" target="1.8" />
       <module name="sssdfgsdfg" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -20,7 +20,7 @@
     </properties>
 
     <dependencies>
-        <!--eureka-client 依赖-->
+        <!--将provider1注册到eureka-client provider1需要引入的依赖 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>

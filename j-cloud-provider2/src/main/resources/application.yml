@@ -6,15 +6,15 @@ server:
 spring:
   application:
     # 应用名称,应用名称可以重复的
-    name: provider-user
+    name: provider-user #eureka Application下大写的名字
 
 # eureka 配置
 eureka:
-  client:
+  client: #client服务的提供者 不能http直接访问 消费之可以
     serviceUrl:
       defaultZone: http://jorian:123456@localhost:8761/eureka
   instance:
-    instance-id: jcloud-provider2 #修改Eureka上的默认描述信息
+    instance-id: jcloud-provider2 #修改Eureka上的默认描述信息 	Status下的名字
 # 开启负载均衡
 #ribbon:
 #  eureka:
